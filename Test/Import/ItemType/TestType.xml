@@ -18,6 +18,24 @@
   <use_src_access>0</use_src_access>
   <name>TestType</name>
   <Relationships>
+   <Item type="Property" id="6166123984444E649DEAA3D92B53E164" action="add">
+    <column_alignment>left</column_alignment>
+    <data_type>string</data_type>
+    <is_hidden>0</is_hidden>
+    <is_hidden2>0</is_hidden2>
+    <is_indexed>0</is_indexed>
+    <is_keyed>0</is_keyed>
+    <is_multi_valued>0</is_multi_valued>
+    <is_required>0</is_required>
+    <label xml:lang="en">aa</label>
+    <range_inclusive>0</range_inclusive>
+    <readonly>0</readonly>
+    <sort_order>3456</sort_order>
+    <source_id keyed_name="TestType" type="ItemType" name="TestType">B319E59A087247DBB26754FEA9B22F93</source_id>
+    <stored_length>21</stored_length>
+    <track_history>0</track_history>
+    <name>aa</name>
+   </Item>
    <Item type="Property" id="AFCA8D53BFA14906A1253D801A45100C" action="add">
     <column_alignment>left</column_alignment>
     <data_type>string</data_type>

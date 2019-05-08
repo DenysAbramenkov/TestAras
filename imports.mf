@@ -1,3 +1,6 @@
 <imports>
+  <package name="com.aras.innovator.core" path=".\">
+    <dependson name="com.aras.innovator.admin" />
+  </package>
   <package name="Test" path="Test\Import" />
 </imports>

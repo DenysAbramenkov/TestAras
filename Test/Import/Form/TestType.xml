@@ -1,0 +1,119 @@
+﻿<AML>
+ <Item type="Form" id="08AE60676E634D4CB9618C8DAF8D7FCC" action="add">
+  <category_form>0</category_form>
+  <height>234</height>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>699</width>
+  <name>TestType</name>
+  <Relationships>
+   <Item type="Body" id="B3F8000B1A6A4F26B2E30FA944A761F7" action="add">
+    <bg_color>#FFFFFF</bg_color>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="TestType" type="Form">08AE60676E634D4CB9618C8DAF8D7FCC</source_id>
+    <Relationships>
+     <Item type="Field" id="E1188268673B4629943621AC333B8C90" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>checkbox</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">checkbox0</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="B3F8000B1A6A4F26B2E30FA944A761F7" type="Body">B3F8000B1A6A4F26B2E30FA944A761F7</source_id>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>117</y>
+      <name>checkbox0</name>
+     </Item>
+     <Item type="Field" id="861E56E4F8164700A40C29CB13201CEB" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">html1</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="B3F8000B1A6A4F26B2E30FA944A761F7" type="Body">B3F8000B1A6A4F26B2E30FA944A761F7</source_id>
+      <tab_stop>1</tab_stop>
+      <x>262</x>
+      <y>47</y>
+      <name>html1</name>
+     </Item>
+     <Item type="Field" id="60E256497AF64B21B629C6B29EDD424B" action="add">
+      <display_length_unit>px</display_length_unit>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<span id='ITEM_INFO_INTERNAL_SPAN'/>
+<script>
+  populate_ITEM_INFO_INTERNAL_SPAN = function()
+  {
+    document.getElementById('ITEM_INFO_INTERNAL_SPAN').innerHTML = aras.uiGetItemInfoTable(document.itemType);
+  }
+  window.addEventListener('load', populate_ITEM_INFO_INTERNAL_SPAN);
+</script>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="B3F8000B1A6A4F26B2E30FA944A761F7" type="Body">B3F8000B1A6A4F26B2E30FA944A761F7</source_id>
+      <tab_stop>0</tab_stop>
+      <x>57</x>
+      <y>17</y>
+      <name>item_info</name>
+     </Item>
+     <Item type="Field" id="6122DE85621F42B0A5BC5C2EB07977BF" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>listbox single select</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">listbox_single_select0</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="B3F8000B1A6A4F26B2E30FA944A761F7" type="Body">B3F8000B1A6A4F26B2E30FA944A761F7</source_id>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>167</y>
+      <name>listbox_single_select0</name>
+     </Item>
+     <Item type="Field" id="50853D616C27412EBDE31E58954C0C46" action="add">
+      <border_width>0</border_width>
+      <display_length_unit>px</display_length_unit>
+      <field_type>radio button list</field_type>
+      <font_color>#000000</font_color>
+      <font_family>tahoma, arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label xml:lang="en">radio_button_list0</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="B3F8000B1A6A4F26B2E30FA944A761F7" type="Body">B3F8000B1A6A4F26B2E30FA944A761F7</source_id>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>67</y>
+      <name>radio_button_list0</name>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>
